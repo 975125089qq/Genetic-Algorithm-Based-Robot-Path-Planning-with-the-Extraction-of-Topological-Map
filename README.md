@@ -1,8 +1,14 @@
 conda install pandas
+
 conda install matplotlib
+
 conda install networkx
+
 conda install xlrd
+
 conda install scipy
+
+
 
 A_star_theta_star: code for Theta* and A*(smooth)
 
