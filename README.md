@@ -6,7 +6,7 @@ This project includes several implementations and methodologies for path plannin
 ## Methods explanation
 A*: We adapted conventional A* to allow it to consider smoothness.
 
-Theta*: A famous improved version of A*.
+Theta*: A famous improved version of conventional A*.
 
 DKGA: We implemented the algorithm from the paper 'Domain Knowledge-Based Genetic Algorithms for Mobile Robot Path Planning with Single and Multiple Targets' based on our understanding of its content.
 
