@@ -6,9 +6,9 @@ This project includes several implementations and methodologies for path plannin
 In our problem setting, we consider both **path length** and **smoothness**.
 
 ## Methods explanation
-**A*(smooth)**: We adapted conventional A* to allow it to consider smoothness.
+**A star(smooth)**: We adapted conventional A* to allow it to consider smoothness.
 
-**Theta***: A famous improved version of conventional A*.
+**Theta star**: A famous improved version of conventional A*.
 
 **DKGA**: We implemented the algorithm from the paper 'Domain Knowledge-Based Genetic Algorithms for Mobile Robot Path Planning with Single and Multiple Targets' based on our understanding of its content.
 
