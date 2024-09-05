@@ -30,13 +30,11 @@ topological_map = pf.search_map() # search map and build the topological map
 ```
 
 ### Descriptions
-threshold_loop and threshold_parent: These are two crucial hyperparameters for the proposed initialization method. Increasing their values makes the algorithm more likely to explore paths with a worse estimated fitness value. (The fitness estimation is based on movement in eight directions, which introduces some degree of error (explained further in the paper).
+**threshold_loop** and**threshold_parent**: These are two crucial hyperparameters for the proposed initialization method. Increasing their values makes the algorithm more likely to explore paths with a worse estimated fitness value. (The fitness estimation is based on movement in eight directions, which introduces some degree of error (explained further in the paper).
 
-threshold_loop: hyperparameter for the following situation (a longer path and a shorter path meet together)
-![image](https://github.com/user-attachments/assets/5d5200da-6d4b-4892-a3cd-38a9b0773551)
+**threshold_loop**: A hyperparameter applied when a longer path converges with a shorter path (see Fig. 7(b) in the paper).
 
-threshold_parent: hyperparamter for the following situation (several paths with similar length meet together)
-![image](https://github.com/user-attachments/assets/6c3efc7a-ca96-4460-80a3-c27c29b2f10d)
+**threshold_parent**: A hyperparameter applied when multiple paths of similar lengths converge (see Fig. 7(a) in the paper).
 
 
 
@@ -51,3 +49,6 @@ conda install networkx
 conda install xlrd
 conda install scipy
 
+```
+## Final Note
+The first author apologizes for the messy code and inconsistent naming conventions. However, he is more than happy to answer any questions regarding the code or the proposed methods. Bug reports are also welcome.
