@@ -25,8 +25,8 @@ In our problem setting, we consider both **path length** and **smoothness**. We 
 
 ## Key Functions for Building the Topological Map
 ```
-pf = Pf(MAP, start_point, end_point, threshold_loop, threshold_parent) # initialize the settings
-topological_map = pf.search_map() # search map and build the topological map
+pf = Pf(MAP, start_point, end_point, threshold_loop, threshold_parent)  # Initialize settings
+topological_map = pf.search_map()  # Search and build the topological map
 ```
 
 ### Descriptions
