@@ -30,7 +30,7 @@ topological_map = pf.search_map()  # Search and build the topological map
 ```
 
 ### Descriptions
-**threshold_loop** and**threshold_parent**: These are two crucial hyperparameters for the proposed initialization method. Increasing their values makes the algorithm more likely to explore paths with a worse estimated fitness value. (The fitness estimation is based on movement in eight directions, which introduces some degree of error (explained further in the paper).
+**threshold_loop** and**threshold_parent**: These are two crucial hyperparameters for the proposed initialization method. Increasing their values makes the algorithm more likely to explore paths with a worse estimated fitness value. Exploration of paths with worse estimated fitness values is necessary because the fitness estimation, based on movement in eight directions, introduces a certain degree of error (as explained in Fig. 11 of the paper).
 
 **threshold_loop**: A hyperparameter applied when a longer path converges with a shorter path (see Fig. 7(b) in the paper).
 
