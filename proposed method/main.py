@@ -1,4 +1,4 @@
-# genetic algorithm search of the one max optimization problem
+# genetic algorithm for path planning using topological map
 from matplotlib import pyplot as plt
 import config
 from functions import load_map
@@ -17,7 +17,7 @@ config.MAP_SIZE = MAP.shape[0]
 # search map
 time_start = time.time()
 pf = Pf(MAP, config.p_start, config.p_end, 1, 1.35)
-pmap = pf.search_map()  # key_sect: division points of the map
+pmap = pf.search_map() # search map and build topological map
 print("done")
 
 # initialize path
