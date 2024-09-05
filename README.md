@@ -5,7 +5,7 @@ This project includes several implementations and methodologies for path plannin
 
 In our problem setting, we consider both **path length** and **smoothness**.
 
-## Methods explanation
+## Methods in comparison
 **A star(smooth)**: We adapted conventional A* to allow it to consider smoothness.
 
 **Theta star**: A famous improved version of conventional A*.
