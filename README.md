@@ -1,4 +1,4 @@
-# Project Name
+# Genetic Algorithm-Based Robot Path Planning with the Extraction of Topological Map
 
 ## Overview
 This project includes several implementations and methodologies for path planning, multi-goal planning, and optimization algorithms. It features codes for A*, Theta*, DKGA, DAG+DKGA, and other proposed methods.
