@@ -1,7 +1,11 @@
 # Genetic Algorithm-Based Robot Path Planning with the Extraction of Topological Map
 
 ## Overview
-This project includes several implementations and methodologies for path planning, multi-goal planning, and optimization algorithms. It features codes for A*, Theta*, DKGA, DAG+DKGA, and other proposed methods.
+This project includes several implementations and methodologies for path planning. It features codes for A*, Theta*, DKGA, DAG+DKGA, and the proposed methods.
+
+DKGA: We implemented the algorithm from the paper 'Domain Knowledge-Based Genetic Algorithms for Mobile Robot Path Planning with Single and Multiple Targets' based on our understanding of its content.
+
+DAG: We translated the MATLAB code from the paper 'An Effective Initialization Method for Genetic Algorithm-Based Robot Path Planning Using a Directed Acyclic Graph' into Python.
 
 ### Directory Structure:
 - **A_star_theta_star**: Code for Theta* and A* (smooth versions).
