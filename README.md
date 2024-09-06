@@ -1,5 +1,4 @@
-# Genetic Algorithm-Based Robot Path Planning with the Extraction of Topological Map 
-# (source code of the paper)
+# Genetic Algorithm-Based Robot Path Planning with the Extraction of Topological Map (source code of the paper)
 
 ## Overview
 This project includes several implementations and methodologies for path planning. It features codes for A*(smooth), Theta*, DKGA, DAG+DKGA, and the proposed methods. 
